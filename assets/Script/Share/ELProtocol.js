@@ -1,6 +1,6 @@
 // 视图层到逻辑层协议对应分发处理方法
 var E2LProtocol = {
-    'e2l_click_logo':'UIClickLogin',
+    'e2l_click_logo':'UIClickLogo',
     'e2l_click_login':'UIClickLogin'
 };
 

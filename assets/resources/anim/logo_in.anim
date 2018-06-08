@@ -1,0 +1,531 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "logo_in",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 9.02,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "anim_node/chengz2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.5,
+              "value": 0
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.5666666666666667,
+              "value": 0.8
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1.3
+            },
+            {
+              "frame": 0.8666666666666667,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.5666666666666667,
+              "value": 0.8
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1.3
+            },
+            {
+              "frame": 0.8666666666666667,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengzi6": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.9166666666666666,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.9833333333333333,
+              "value": 0.8
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 1.2833333333333334,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.9833333333333333,
+              "value": 0.8
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 1.2833333333333334,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengz3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.4,
+              "value": 0.8
+            },
+            {
+              "frame": 1.5,
+              "value": 1.3
+            },
+            {
+              "frame": 1.7,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.4,
+              "value": 0.8
+            },
+            {
+              "frame": 1.5,
+              "value": 1.3
+            },
+            {
+              "frame": 1.7,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengzi7": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.7,
+              "value": 0
+            },
+            {
+              "frame": 1.75,
+              "value": 42.499999999999936
+            },
+            {
+              "frame": 2,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 1.75,
+              "value": 0.8
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 2.033333333333333,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 1.75,
+              "value": 0.8
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 2.033333333333333,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengz4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.1666666666666665,
+              "value": 0
+            },
+            {
+              "frame": 2.5,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 2.25,
+              "value": 0.8
+            },
+            {
+              "frame": 2.35,
+              "value": 1.3
+            },
+            {
+              "frame": 2.55,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.25,
+              "value": 0.8
+            },
+            {
+              "frame": 2.35,
+              "value": 1.3
+            },
+            {
+              "frame": 2.55,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengzi8": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.65,
+              "value": 0
+            },
+            {
+              "frame": 2.716666666666667,
+              "value": 51.00000000000015
+            },
+            {
+              "frame": 2.9833333333333334,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 2.716666666666667,
+              "value": 0.8
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 1.3
+            },
+            {
+              "frame": 3.033333333333333,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.716666666666667,
+              "value": 0.8
+            },
+            {
+              "frame": 2.8333333333333335,
+              "value": 1.3
+            },
+            {
+              "frame": 3.033333333333333,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengzi5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 3.1333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 3.466666666666667,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 3.2,
+              "value": 0.8
+            },
+            {
+              "frame": 3.283333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 3.5,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 3.2,
+              "value": 0.8
+            },
+            {
+              "frame": 3.283333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 3.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/chengzi1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 3.5833333333333335,
+              "value": 0
+            },
+            {
+              "frame": 4,
+              "value": 255
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 3.6666666666666665,
+              "value": 0.8
+            },
+            {
+              "frame": 3.783333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 3.95,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 3.6666666666666665,
+              "value": 0.8
+            },
+            {
+              "frame": 3.783333333333333,
+              "value": 1.3
+            },
+            {
+              "frame": 3.95,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "anim_node/waipi": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 3.816666666666667,
+              "value": 0
+            },
+            {
+              "frame": 4.116666666666666,
+              "value": 255
+            },
+            {
+              "frame": 4.333333333333333,
+              "value": 100
+            },
+            {
+              "frame": 4.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "anim_node/yezi1": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.216666666666667,
+              "value": 0
+            },
+            {
+              "frame": 4.4,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 4.383333333333334,
+              "value": 0
+            },
+            {
+              "frame": 4.616666666666666,
+              "value": -30
+            },
+            {
+              "frame": 4.95,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "anim_node/yezi2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 4.866666666666666,
+              "value": 0
+            },
+            {
+              "frame": 5.616666666666666,
+              "value": 255
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 5.133333333333334,
+              "value": 0
+            },
+            {
+              "frame": 5.366666666666666,
+              "value": 30
+            },
+            {
+              "frame": 5.666666666666667,
+              "value": -20
+            },
+            {
+              "frame": 6.133333333333334,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "anim_node/yxczkl": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 6.083333333333333,
+              "value": 0
+            },
+            {
+              "frame": 6.366666666666666,
+              "value": 255
+            }
+          ],
+          "y": [
+            {
+              "frame": 6.2,
+              "value": 11
+            },
+            {
+              "frame": 6.683333333333334,
+              "value": -99
+            },
+            {
+              "frame": 7.15,
+              "value": -44
+            }
+          ]
+        }
+      },
+      "anim_node/qing": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 5.416666666666667,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "anim_node/cheng": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.533333333333333,
+              "value": 0
+            },
+            {
+              "frame": 5.616666666666666,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "anim_node/hu": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.733333333333333,
+              "value": 0
+            },
+            {
+              "frame": 5.816666666666666,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "anim_node/yu": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 5.933333333333334,
+              "value": 0
+            },
+            {
+              "frame": 6.016666666666667,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 9.016666666666667,
+      "func": "enableJump",
+      "params": []
+    }
+  ]
+}

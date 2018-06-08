@@ -9,7 +9,11 @@ var fsm = require("fsm");
 cc.Class({
     extends: cc.Component,
 
+    // self:this,
+
     onLoad: function () {
+
+        // self = this;
 
         cc.game.addPersistRootNode(this.node);
         // 注册状态的进入和退出处理方法，不需要处理也可以不注册
@@ -31,8 +35,9 @@ cc.Class({
 
         // 启动状态机
         fsm.startup();
-
     },
+
+
 
     update: function() {
         // cc.log('curr state:%s',fsm.current);
@@ -98,9 +103,16 @@ cc.Class({
     },
 
     // 触发状态转换事件
-    enterLogin: function() {
+    endLogo: function() {
+        var paramOut = {
+            eProtocol: 'l2e_show_login',
+        };
+
+        // this.pass2Engine(paramOut);
+        cc.find('LogicNode').getComponent('LogicCenter').pass2Engine(paramOut);
+
         fsm.endlogo();
-    }.bind(this),
+   }.bind(this),
 
     loginOk: function() {
         fsm.loginok();
@@ -116,10 +128,10 @@ cc.Class({
 
     // 状态执行方法
     processlogo: function () {
-        cc.log("process logo");
+        // cc.log("process logo");
     },
 
     processlogin: function () {
-        cc.log("process login");
+        // cc.log("process login");
     },
 });

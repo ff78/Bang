@@ -17,18 +17,24 @@ cc.Class({
 
     // update (dt) {},
 
-    // 点击登录界面的逻辑处理
-    clickLogin: function(param) {
+    // // 点击Logo界面的逻辑处理
+    // clickLogo: function(param) {
+    //     cc.log("SystemLogic:clickLogo:%s",param.eProtocol);
+
+    //     // Account.getInstance().readJobConfigFile();
+    //     Account.getInstance().readProtoPlayer();
+    // },
+
+    clickLogin (param) {
         cc.log("SystemLogic:clickLogin:%s",param.eProtocol);
-        var paramOut = {
-            eProtocol: 'l2e_show_login',
-        };
+        cc.log("SystemLogic:clickLogin:username:%s",param.username);
+        cc.log("SystemLogic:clickLogin:pwd:%s",param.pwd);
 
-        cc.find('LogicNode').getComponent('LogicCenter').pass2Engine(paramOut);
-
-        // Account.getInstance().readJobConfigFile();
-        Account.getInstance().readProtoPlayer();
-        // cc.find('LogicNode').getComponent('LogicCenter').sm.enterLogin();
+        if (cc.sys.OS_ANDROID == cc.sys.os) {
+            jsb.reflection.callStaticMethod("BeiyouJni/JniHelper", "weixin_login", "(I)V", function(ret){
+                
+            });
+        }
     },
 
 });

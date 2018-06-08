@@ -1,10 +1,14 @@
 
 // 视图层到逻辑层分发方法集
 var UI2LogicFunc = {
-    UIClickLogin: function (param) { 
-        cc.log('func:UIClickLogin:%s',param.eProtocol);
+    UIClickLogo: function (param) { 
+        cc.log('func:UIClickLogo:%s', param.eProtocol);
 
-        cc.find('LogicNode').getComponent('LogicCenter').enterLogin();
+        cc.find('LogicNode').getComponent('LogicCenter').endLogo();
+    },
+
+    UIClickLogin: function (param) {
+        cc.log('func:UIClickLogin:%s', param.eProtocol);
         cc.find('SystemLogicNode').getComponent('SystemLogic').clickLogin(param);
     },
 }; 

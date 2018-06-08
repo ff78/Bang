@@ -16,22 +16,23 @@ cc.Class({
         // defaults, set visually when attaching this script to the Canvas
         text: 'Hello, World!',   
     },
-
+    self:this,
     // use this for initialization
     onLoad: function () {
         this.label.string = this.text;
+        self = this;
 
         // 注册自定义事件，给常驻节点，方便发射事件
-        cc.find("LogicNode").on(EventDefine.UPDATE_NET_STATE, this.showLogin);
+        cc.find("LogicNode").on(EventDefine.SHOW_LOGIN, this.showLogin);
+        cc.loader.loadRes("prefabs/logo_node", function (err, prefab) {
+            var logo = cc.instantiate(prefab);
+            logo.parent = self.node;
+            // this.node.addChild(logo);
+        });  
     },
 
     start: function() {
-        var param = {
-            eProtocol: 'e2l_click_logo',
-        };
 
-        cc.find('LogicNode').getComponent('LogicCenter').ProcessUIRequest(param);
-        // cc.warn("LogicCenter name : " + LogicCenter._instance.name + ",age = " + LogicCenter._instance.age);
     },
 
     // called every frame
@@ -39,13 +40,18 @@ cc.Class({
 
     },
 
-    showLogin: function(event) {
-        cc.log("showLogin:%s", event.detail.param1);
-        cc.log("HelloWorld:showLogin");
-    }.bind(this),
 
     onDisable:function(){
         cc.log("清除自定义事件")
-        cc.find('LogicNode').off(EventDefine.UPDATE_NET_STATE, this.showLogin, this)    
+        cc.find('LogicNode').off(EventDefine.SHOW_LOGIN, this.showLogin, this)    
     },
+
+    showLogin: function(event) {
+        cc.log("showLogin:%s", event.detail.param1);
+        cc.log("HelloWorld:showLogin");
+
+        var loginNode = cc.find('Canvas').getChildByName('login_node');
+        loginNode.active = true;
+    }.bind(this),
+
 });
